@@ -1,3 +1,15 @@
+// Emberfall — entrypoint for the make.fun best-game-01 entry.
+//
+// This program hands in the Emberfall game: a 2D canvas arcade game where a
+// lantern catches golden embers, dodges meteors (swift, zigzag and splitting
+// ones), survives a giant boss meteor every third level, and chains combos
+// across ten sky palettes. The game itself lives in game/ as plain static
+// files (index.html plus ES modules, no libraries, no network), and the three
+// screenshots in screenshots/ show the title screen, gameplay and the
+// game-over screen. The program below copies game/ and screenshots/ into the
+// output directory and writes dossier.json, the summary the judge reads,
+// using the vendored make.fun library.
+
 // A working best-game-01 entry (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
